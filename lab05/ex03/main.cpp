@@ -4,8 +4,8 @@
 int main()
 {
     // Creating ComplexNumber objects
-    ws::jpo::ComplexNumber <char> c1('a', 'b');
-    ws::jpo::ComplexNumber <char> c2('a', 'b');
+    ws::jpo::ComplexNumber<double> c1(2, 11.43);
+    ws::jpo::ComplexNumber<double> c2(10.11, 31.21);
 
     // Displaying initial values
     std::cout << "c1: " << c1 << std::endl;
